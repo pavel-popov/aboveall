@@ -1,4 +1,4 @@
 function macdown --description 'Open markdown document in MacDown'
-    root=(mdfind kMDItemCFBundleIdentifier=com.uranusjr.macdown | head -n1)
-    $root/Contents/SharedSupport/bin/macdown $argv
+    set -lx DIR (mdfind kMDItemCFBundleIdentifier=com.uranusjr.macdown | head -n1)
+    $DIR/Contents/SharedSupport/bin/macdown $argv
 end
