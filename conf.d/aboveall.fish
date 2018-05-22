@@ -2,6 +2,7 @@ alias gs="git status"
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias vi=nvim
+alias t=task
 
 set -g GOPATH ~/go
 set -g PYTHONDONTWRITEBYTECODE 1
