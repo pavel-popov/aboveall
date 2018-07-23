@@ -3,6 +3,7 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias vi=nvim
 alias t=task
+alias did="vim +'normal Go' +'r!date' ~/did.txt"
 
 set -g GOPATH ~/go
 set -g PYTHONDONTWRITEBYTECODE 1
