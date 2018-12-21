@@ -3,6 +3,6 @@ function posix-source
     set arr (string split -m1 = $i)
     set key $arr[1]
     set val (echo $arr[2] | sed 's/^[\'"]//;s/[\'"]$//')
-    set -gx $key $val
+    set -x $key $val
   end
 end
