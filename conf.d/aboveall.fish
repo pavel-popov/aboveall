@@ -5,6 +5,5 @@ alias vi=nvim
 alias t=task
 alias did="vim +'normal Go' +'r!date' ~/Documents/did.txt"
 
-set -g GOPATH ~/go
-set -g PYTHONDONTWRITEBYTECODE 1
-set -g FZF_LEGACY_KEYBINDINGS 0
+set --global --export GOPATH ~/go
+set --global --export PYTHONDONTWRITEBYTECODE 1
